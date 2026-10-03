@@ -1,0 +1,72 @@
+{
+ "series": 82,
+ "families": 10,
+ "origins": 14,
+ "forecasts": 9102,
+ "models": {
+  "seasonal_naive": {
+   "wape_colour": 0.639,
+   "bias_colour": 0.043,
+   "wape_family": 0.224,
+   "bias_family": 0.043,
+   "wape_colour_by_horizon": {
+    "1": 0.649,
+    "2": 0.641,
+    "3": 0.632,
+    "4": 0.643,
+    "5": 0.63,
+    "6": 0.651,
+    "7": 0.622,
+    "8": 0.642
+   }
+  },
+  "moving_average": {
+   "wape_colour": 0.286,
+   "bias_colour": -0.073,
+   "wape_family": 0.204,
+   "bias_family": -0.073,
+   "wape_colour_by_horizon": {
+    "1": 0.25,
+    "2": 0.263,
+    "3": 0.272,
+    "4": 0.283,
+    "5": 0.293,
+    "6": 0.3,
+    "7": 0.311,
+    "8": 0.319
+   }
+  },
+  "global_gbm": {
+   "wape_colour": 0.298,
+   "bias_colour": -0.048,
+   "wape_family": 0.172,
+   "bias_family": -0.048,
+   "wape_colour_by_horizon": {
+    "1": 0.266,
+    "2": 0.285,
+    "3": 0.274,
+    "4": 0.299,
+    "5": 0.296,
+    "6": 0.316,
+    "7": 0.316,
+    "8": 0.328
+   }
+  },
+  "top_down": {
+   "wape_colour": 0.276,
+   "bias_colour": 0.032,
+   "wape_family": 0.166,
+   "bias_family": 0.032,
+   "wape_colour_by_horizon": {
+    "1": 0.259,
+    "2": 0.273,
+    "3": 0.261,
+    "4": 0.279,
+    "5": 0.274,
+    "6": 0.289,
+    "7": 0.278,
+    "8": 0.297
+   }
+  }
+ }
+}
